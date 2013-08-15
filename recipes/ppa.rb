@@ -27,6 +27,6 @@ apt_repository "gophers-go-ppa" do
   action :add
 end
 
-package "golang-#{node.golang.version}" do
+package "golang" do
   action :install
 end
